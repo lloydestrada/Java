@@ -4,5 +4,6 @@ public class Main {
         String[] fruit = {"Apple", "banana", "calamansi", "eggplant"};
 
         System.out.println(fruit[3]);
+        System.out.println(fruit[2]);
     }
 }
