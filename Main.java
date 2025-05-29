@@ -5,5 +5,6 @@ public class Main {
 
         System.out.println(fruit[3]);
         System.out.println(fruit[2]);
+        System.out.println(fruit[0]);
     }
 }
