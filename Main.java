@@ -1,11 +1,30 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
 
-        String[] fruit = {"Apple", "banana", "calamansi", "eggplant","peach"};
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(fruit[3]);
-        System.out.println(fruit[2]);
-        System.out.println(fruit[0]);
-        System.out.println(fruit[4]);
+        String[] foods;
+        int size;
+
+        System.out.print("What number of food do you want?: ");
+        size = scanner.nextInt();
+        scanner.nextLine();
+
+        foods = new String[size];
+
+       for(int i = 0; i < foods.length; i++){
+
+           System.out.print("Enter a food: ");
+           foods[i] = scanner.nextLine();
+       }
+
+        for(String food : foods){
+            System.out.println(food);
+        }
+
+        scanner.close();
     }
 }
