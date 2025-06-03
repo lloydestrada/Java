@@ -4,27 +4,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);
+        int[] numbers = {1, 2, 3, 6, 8, 9, 11,};
 
-        String[] foods;
-        int size;
+        int target = 2;
 
-        System.out.print("What number of food do you want?: ");
-        size = scanner.nextInt();
-        scanner.nextLine();
+        boolean isFound = false;
 
-        foods = new String[size];
-
-       for(int i = 0; i < foods.length; i++){
-
-           System.out.print("Enter a food: ");
-           foods[i] = scanner.nextLine();
-       }
-
-        for(String food : foods){
-            System.out.println(food);
+        for(int i = 0; i < numbers.length; i++){
+            if(target == numbers[i]) {
+                System.out.println("Element found: " + i);
+                isFound = true;
+                break;
+            }
         }
 
-        scanner.close();
+        if(!isFound){
+            System.out.println("Nothing found");
+        }
     }
 }
