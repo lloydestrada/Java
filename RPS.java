@@ -13,26 +13,44 @@ public class RPS {
         String[] choices = {"rock", "paper", "scissors"};
         String playerChoice;
         String PCChoice;
-        String playAgain = "yes";
+        String playAgain = "Yes";
 
         //GET CHOICE
-        System.out.print("Enter your choice (rock, paper, or scissors): ");
-        playerChoice = scanner.nextLine().toLowerCase();
+        do{
+            System.out.print("Enter your choice (rock, paper, or scissors): ");
+            playerChoice = scanner.nextLine().toLowerCase();
 
-        if(!playerChoice.equals("rock") && !playerChoice.equals("paper") && !playerChoice.equals("scissors")){
-            System.out.println("Invalid choice");
-        }
+            if(!playerChoice.equals("rock") && !playerChoice.equals("paper") && !playerChoice.equals("scissors")){
+                System.out.println("Invalid choice");
+                continue;
+            }
 
-        //RANDOM CHOICE OF PC
-        PCChoice = choices[random.nextInt(3)];
-        System.out.println("Computer choice:  " + PCChoice );
+            //RANDOM CHOICE OF PC
+            PCChoice = choices[random.nextInt(3)];
+            System.out.println("Computer choice:  " + PCChoice );
 
-        //CHECK
+            //CHECK
+            if(playerChoice.equals(PCChoice)){
+                System.out.println("It's a tie!");
+            } else if(playerChoice.equals("rock") && PCChoice.equals("scissors") ||
+                    (playerChoice.equals("paper") && PCChoice.equals("rock") ||
+                            (playerChoice.equals("scissors") && PCChoice.equals("paper")))){
 
+                System.out.println("You Win!");
+            } else{
+                System.out.println("You Lose!");
+            }
 
-        //PLAY AGAIN
+            //PLAY AGAIN
+            System.out.print("Play Again Y/N: ");
+            playAgain = scanner.nextLine().toLowerCase();
+
+        }while(playAgain.equals("yes"));
 
         //MESSAGE
+        System.out.println("--------------------");
+        System.out.println("Thanks for playing!");
+        System.out.println("--------------------");
 
         scanner.close();
     }
