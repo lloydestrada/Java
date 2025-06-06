@@ -2,30 +2,18 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        //int[] numbers = {1, 2, 3, 6, 8, 9, 11,};
-        String [] cars = {"Honda", "Mitsubishi", "Ford", "Toyota", "BMW", "Subaru", "Suzuki"};
+        System.out.println(add(1,2,3,4));
 
-        String target;
-        boolean isFound = false;
+    }
+    static int add(int... numbers){
 
-        System.out.print("Enter the Car brand you want to find: ");
-        target = scanner.nextLine();
+        int sum = 0;
 
-        for(int i = 0; i < cars.length; i++){
-            if(cars[i].equals(target)) {
-                System.out.println("Element found: " + i);
-                isFound = true;
-                break;
-            }
+        for(int number : numbers){
+            sum += number;
         }
-
-        if(!isFound){
-            System.out.println("Nothing found");
-        }
-
-        scanner.close();
+        return  sum;
     }
 }
