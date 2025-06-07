@@ -9,8 +9,12 @@ public class Dice {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
+        String name;
         int numOfDice;
         int total = 0;
+
+        System.out.print("Enter your name: ");
+        name = scanner.nextLine();
 
         System.out.print("Enter the number of dice to roll: ");
         numOfDice = scanner.nextInt();
@@ -19,7 +23,7 @@ public class Dice {
             for(int i = 0; i < numOfDice; i++){
                 int roll = random.nextInt(1,7);
                 printDie(roll);
-                System.out.println("You roll " + roll);
+                System.out.println( name +" rolls " + roll);
                 total += roll;
             }
             System.out.println("Total " + total);
