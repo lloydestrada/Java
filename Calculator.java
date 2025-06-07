@@ -1,41 +1,66 @@
 import java.util.*;
 
 public class Calculator {
-    
-        static  Scanner sc = new Scanner(System.in);
-    public static void main(String[] args){
-        
 
-        double firstNumber = 0;
-        double secondNumber = 0;
-        int options;
-        boolean isRunning = true;
+    public static void main(String[] args) {
 
-        while(isRunning) {
+        Scanner sc = new Scanner(System.in);
 
-            System.out.println("---------------------------------------");
-            System.out.println("Welcome to the mini calculator project");
-            System.out.println("---------------------------------------");
+        char operator;
+        double firsNum, secondNum, result;
 
-            System.out.println("Select an operator");
-            System.out.println("1. +");
-            System.out.println("2. -");
-            System.out.println("3. *");
-            System.out.println("4. /");
-            System.out.println("5. Exit");
 
-            System.out.print("Enter your options: ");
-            options = sc.nextInt();
+        System.out.println("---------------------------------------");
+        System.out.println("Welcome to the mini calculator project");
+        System.out.println("---------------------------------------");
 
-            switch (options){
-                case 1 -> add();
+
+        System.out.println("Choose an operator (+, -, *, /)");
+        operator = sc.next().charAt(0);
+
+        // first Number
+        System.out.print("Enter your first number: ");
+        firsNum = sc.nextDouble();
+
+        //second Number
+        System.out.print("Enter your second number: ");
+        secondNum = sc.nextDouble();
+
+        switch (operator){
+            case '+' ->{
+                    result = firsNum + secondNum;
+                    System.out.println(firsNum + " + " + secondNum + " = " + result);
+                    break;
             }
 
+            case '-' ->{
+                result = firsNum - secondNum;
+                System.out.println(firsNum + " + " + secondNum + " = " + result);
+                break;
+            }
+
+            case '*' ->{
+                result = firsNum * secondNum;
+                System.out.println(firsNum + " + " + secondNum + " = " + result);
+                break;
+            }
+
+            case '/' ->{
+
+                if(firsNum == 0 || secondNum == 0){
+                    System.out.println("Cannot divide by zero");
+                }else{
+                    result = firsNum / secondNum;
+                    System.out.println(firsNum + " + " + secondNum + " = " + result);
+                    break;
+                }
+            }
+
+            default -> {
+                System.out.println("Invalid Input");
+            }
         }
 
-    }
-
-    static double add(double a, double b){
-
+        sc.close();
     }
 }
