@@ -26,7 +26,7 @@ public class Dice {
                 System.out.println( name +" rolls " + roll);
                 total += roll;
             }
-            System.out.println("Total " + total);
+            System.out.println("Total of " + name +"'s roll: " + total);
         }
         else{
             System.out.println("Number of dice must be greater than 0");
