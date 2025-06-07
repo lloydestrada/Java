@@ -7,60 +7,68 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         char operator;
-        double firsNum, secondNum, result;
+        double firstNum, secondNum, result;
+        boolean isRunning = true;
 
 
-        System.out.println("---------------------------------------");
-        System.out.println("Welcome to the mini calculator project");
-        System.out.println("---------------------------------------");
+        while(isRunning){
+            System.out.println("---------------------------------------");
+            System.out.println("Welcome to the mini calculator project");
+            System.out.println("---------------------------------------");
 
 
-        System.out.println("Choose an operator (+, -, *, /)");
-        operator = sc.next().charAt(0);
+            System.out.println("Choose an operator (+, -, *, /) or press 5 to exit. ");
+            operator = sc.next().charAt(0);
 
-        // first Number
-        System.out.print("Enter your first number: ");
-        firsNum = sc.nextDouble();
-
-        //second Number
-        System.out.print("Enter your second number: ");
-        secondNum = sc.nextDouble();
-
-        switch (operator){
-            case '+' ->{
-                    result = firsNum + secondNum;
-                    System.out.println(firsNum + " + " + secondNum + " = " + result);
-                    break;
+            if(operator == '5'){
+                isRunning = false;
+                continue;
             }
 
-            case '-' ->{
-                result = firsNum - secondNum;
-                System.out.println(firsNum + " + " + secondNum + " = " + result);
-                break;
-            }
+            // first Number
+            System.out.print("Enter your first number: ");
+            firstNum = sc.nextDouble();
 
-            case '*' ->{
-                result = firsNum * secondNum;
-                System.out.println(firsNum + " + " + secondNum + " = " + result);
-                break;
-            }
+            //second Number
+            System.out.print("Enter your second number: ");
+            secondNum = sc.nextDouble();
 
-            case '/' ->{
-
-                if(firsNum == 0 || secondNum == 0){
-                    System.out.println("Cannot divide by zero");
-                }else{
-                    result = firsNum / secondNum;
-                    System.out.println(firsNum + " + " + secondNum + " = " + result);
+            switch (operator){
+                case '+' ->{
+                    result = firstNum + secondNum;
+                    System.out.println(firstNum + " + " + secondNum + " = " + result);
                     break;
                 }
-            }
 
-            default -> {
-                System.out.println("Invalid Input");
+                case '-' ->{
+                    result = firstNum - secondNum;
+                    System.out.println(firstNum + " - " + secondNum + " = " + result);
+                    break;
+                }
+
+                case '*' ->{
+                    result = firstNum * secondNum;
+                    System.out.println(firstNum + " * " + secondNum + " = " + result);
+                    break;
+                }
+
+                case '/' ->{
+
+                    if(secondNum == 0){
+                        System.out.println("Cannot divide by zero");
+                    }else{
+                        result = firstNum / secondNum;
+                        System.out.println(firstNum + " / " + secondNum + " = " + result);
+
+                    }
+                    break;
+                }
+                default ->
+                    System.out.println("Invalid Input");
             }
         }
-
+        System.out.println("Calculator is now closed!");
+        System.out.println("Thank You!");
         sc.close();
     }
 }
