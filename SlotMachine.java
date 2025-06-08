@@ -13,12 +13,16 @@ public class SlotMachine {
         int payout;
         String[][] grid;
         String spinAgain;
+        String name;
 
         //Welcome Message
         System.out.println("-----------------------------");
         System.out.println("Welcome to the slot machine!");
         System.out.println("Symbols: 🍇 🍊 🍌 🍒 🍎 ");
         System.out.println("-----------------------------");
+
+        System.out.print("Enter your name: ");
+        name = sc.nextLine();
 
         //Play if balance > 0
         while(balance > 0){
@@ -70,7 +74,7 @@ public class SlotMachine {
         }
 
         //Exit Message
-        System.out.println("Thanks for playing!");
+        System.out.println("Thank you " + name + " for playing!");
         System.out.println("Final Balance: ₱" + balance);
         sc.close();
     }
