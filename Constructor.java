@@ -1,4 +1,4 @@
-public class Main {
+public class Constructor {
     public static void main(String[] args){
 
         Car car1 = new Car("Honda", "Civic Type R", 2024, 4);
