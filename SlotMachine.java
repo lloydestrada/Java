@@ -53,7 +53,7 @@ public class SlotMachine {
                 balance -= bet;
             }
 
-            System.out.println("\nSpinning...");
+            System.out.println("Spinning for " + name + " ...");
             grid = spinGrid();
             printGrid(grid);
             payout = getPayout(grid, bet);
@@ -67,7 +67,7 @@ public class SlotMachine {
 
             //Ask to play again
             System.out.println("Spin Again? (Y/N): ");
-            spinAgain = sc.nextLine().toUpperCase();
+            spinAgain = sc.nextLine().trim().toUpperCase();
             if(!spinAgain.equals("Y")){
                 break;
             }
@@ -107,6 +107,7 @@ public class SlotMachine {
 
     static int getPayout(String[][] grid, int bet){
 
+        int totalPayout = 0;
         //Check all rows
         for(int i = 0; i < 3; i++){
             if (grid[i][0].equals(grid[i][1]) && grid[i][1].equals(grid[i][2])){
@@ -135,12 +136,12 @@ public class SlotMachine {
     static int getSymbolPayout(String symbol, int bet, boolean fullMatch){
             int multiplier = switch (symbol){
 
-                case "🍎" -> fullMatch ? 300 : 200;
-                case "🍒" -> fullMatch ? 450 : 300;
-                case "🍌" -> fullMatch ? 600 : 450;
-                case "🍇" -> fullMatch ? 900 : 700;
-                case "🍊" -> fullMatch ? 1500 : 1000;
-                case "7️⃣" -> fullMatch ? 5000 : 2500;
+                case "🍎" -> 400;
+                case "🍒" -> 800;
+                case "🍌" -> 1200;
+                case "🍇" -> 1900;
+                case "🍊" -> 2500;
+                case "7️⃣" -> 7000;
                 default -> 0;
             };
         return bet * multiplier;
