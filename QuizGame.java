@@ -15,10 +15,10 @@ import java.util.*;
 
        //Options using array
        String[][] options = {{"1. James Gosling", "2. Dennis Ritchie", "3. Jaime Gosling", "4. Guido van Rossum"},
-                             {"1. Hard Drive", "2. RAM", "3. GPU", "4. CPU"},
-                             {"1. 1995", "2. 1996", "3. 2002", "4. 1998"},
-                             {"1. Alan Turing", "2. John McCarthy", "3. Marvin Kinsky", "4. Geoffrey Hinton"},
-                             {"1. Mark Zuckerberg", "2. Bill Gates", "3. Elon Musk", "4. Jeff Bezos"}};
+                             {"2. Hard Drive", "2. RAM", "3. GPU", "4. CPU"},
+                             {"3. 1995", "2. 1996", "3. 2002", "4. 1998"},
+                             {"4. Alan Turing", "2. John McCarthy", "3. Marvin Kinsky", "4. Geoffrey Hinton"},
+                             {"5. Mark Zuckerberg", "2. Bill Gates", "3. Elon Musk", "4. Jeff Bezos"}};
 
 
        //Declare variables
