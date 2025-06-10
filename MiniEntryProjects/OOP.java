@@ -13,5 +13,6 @@ public class OOP {
 
         car.drive();
         car.stop();
+        car.steer();
     }
 }

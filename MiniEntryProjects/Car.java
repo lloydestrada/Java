@@ -15,5 +15,6 @@ public class Car {
 
         System.out.println("You are driving the " + brand + model);
         System.out.println("With a model year of " + year + " and " + seats + " seats");
+
     }
 }

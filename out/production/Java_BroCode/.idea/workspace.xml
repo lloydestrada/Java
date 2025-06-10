@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="420ca6ce-9fc6-40db-b760-09843fd83577" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_BroCode/Java_OOP/Inheritance/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_BroCode/Java_OOP/Inheritance/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_BroCode/Java_OOP/Inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_BroCode/Java_OOP/Inheritance/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {

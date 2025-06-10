@@ -1,0 +1,138 @@
+Index: out/production/Java_BroCode/.idea/Java_BroCode.iml
+===================================================================
+diff --git a/out/production/Java_BroCode/.idea/Java_BroCode.iml b/out/production/Java_BroCode/.idea/Java_BroCode.iml
+deleted file mode 100644
+--- a/out/production/Java_BroCode/.idea/Java_BroCode.iml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: out/production/Java_MiniEntryProjects/.idea/misc.xml
+===================================================================
+diff --git a/out/production/Java_MiniEntryProjects/.idea/misc.xml b/out/production/Java_MiniEntryProjects/.idea/misc.xml
+deleted file mode 100644
+--- a/out/production/Java_MiniEntryProjects/.idea/misc.xml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: out/production/Java_MiniEntryProjects/.idea/modules.xml
+===================================================================
+diff --git a/out/production/Java_MiniEntryProjects/.idea/modules.xml b/out/production/Java_MiniEntryProjects/.idea/modules.xml
+deleted file mode 100644
+--- a/out/production/Java_MiniEntryProjects/.idea/modules.xml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Java_BroCode.iml" filepath="$PROJECT_DIR$/.idea/Java_BroCode.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: out/production/Java_BroCode/.idea/misc.xml
+===================================================================
+diff --git a/out/production/Java_BroCode/.idea/misc.xml b/out/production/Java_BroCode/.idea/misc.xml
+deleted file mode 100644
+--- a/out/production/Java_BroCode/.idea/misc.xml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: out/production/Java_MiniEntryProjects/.idea/Java_BroCode.iml
+===================================================================
+diff --git a/out/production/Java_MiniEntryProjects/.idea/Java_BroCode.iml b/out/production/Java_MiniEntryProjects/.idea/Java_BroCode.iml
+deleted file mode 100644
+--- a/out/production/Java_MiniEntryProjects/.idea/Java_BroCode.iml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: out/production/Java_BroCode/.idea/vcs.xml
+===================================================================
+diff --git a/out/production/Java_BroCode/.idea/vcs.xml b/out/production/Java_BroCode/.idea/vcs.xml
+deleted file mode 100644
+--- a/out/production/Java_BroCode/.idea/vcs.xml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/Java_MiniEntryProjects" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: out/production/Java_BroCode/.idea/.gitignore
+===================================================================
+diff --git a/out/production/Java_BroCode/.idea/.gitignore b/out/production/Java_BroCode/.idea/.gitignore
+deleted file mode 100644
+--- a/out/production/Java_BroCode/.idea/.gitignore	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,5 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Environment-dependent path to Maven home directory
+-/mavenHomeManager.xml
+Index: out/production/Java_MiniEntryProjects/.idea/.gitignore
+===================================================================
+diff --git a/out/production/Java_MiniEntryProjects/.idea/.gitignore b/out/production/Java_MiniEntryProjects/.idea/.gitignore
+deleted file mode 100644
+--- a/out/production/Java_MiniEntryProjects/.idea/.gitignore	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,5 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Environment-dependent path to Maven home directory
+-/mavenHomeManager.xml
+Index: out/production/Java_BroCode/.idea/modules.xml
+===================================================================
+diff --git a/out/production/Java_BroCode/.idea/modules.xml b/out/production/Java_BroCode/.idea/modules.xml
+deleted file mode 100644
+--- a/out/production/Java_BroCode/.idea/modules.xml	(revision 262088b8356de045b586605e048ad15b2690a58d)
++++ /dev/null	(revision 262088b8356de045b586605e048ad15b2690a58d)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Java_BroCode.iml" filepath="$PROJECT_DIR$/.idea/Java_BroCode.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/Java_OOP/Java_OOP.iml" filepath="$PROJECT_DIR$/Java_OOP/Java_OOP.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
