@@ -26,4 +26,8 @@ public class CarOOP {
     void brake(){
         System.out.println("You brake the " + model);
     }
+
+    void steer(){
+        System.out.println("You steer the " + model);
+    }
 }
