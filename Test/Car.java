@@ -1,4 +1,4 @@
-package MiniEntryProjects;
+package Test;
 
 public class Car {
 
