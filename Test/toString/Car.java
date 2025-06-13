@@ -1,4 +1,4 @@
-package toString;
+package Test.toString;
 
 public class Car {
 
