@@ -15,9 +15,10 @@ public class bankingProgram {
         while(isRunning){
 
             //Display Menu
-            System.out.println("");
+            System.out.println("--------------------");
             System.out.println("Welcome to the Bank");
             System.out.println("Here are the options");
+            System.out.println("--------------------\n");
             System.out.println("****************");
             System.out.println("1. Show Balance");
             System.out.println("2. Deposit");
