@@ -12,23 +12,23 @@ public class Car {
         this.price = price;
     }
 
-    String getModel(){
+    public String getModel(){
         return this.model;
     }
 
-    String getColor(){
+    public String getColor(){
         return this.color;
     }
 
-    int getPrice(){
+    public int getPrice(){
         return this.price;
     }
 
-    void setColor(String color){
+    public void setColor(String color){
         this.color = color;
     }
 
-    void setPrice(int price){
+    public void setPrice(int price){
        if(price < 0){
            System.out.println("Insufficient and cannot be less than zero");
        }

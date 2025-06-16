@@ -6,6 +6,7 @@ public class Main {
         //They help protect object data and add rules for accessing or modifying
         //Getter - makes the field READABLE
         //Setter - makes the field WRITABLE/MODIFY
+
         Car car = new Car("Honda Civic", "Black", 122222);
 
 

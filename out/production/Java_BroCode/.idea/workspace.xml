@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420ca6ce-9fc6-40db-b760-09843fd83577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/Aggregation/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Aggregation/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Aggregation/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="420ca6ce-9fc6-40db-b760-09843fd83577" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +68,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Aggregation.Main" />
+      <module name="Java_BroCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="420ca6ce-9fc6-40db-b760-09843fd83577" name="Changes" comment="" />
