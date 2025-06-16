@@ -100,7 +100,7 @@ public class Main {
             System.out.println("Student not found");
         }
     }
-
+    //Update Student
     public static void updateStudent(Scanner scanner, ArrayList<Student> students){
 
         boolean isFound = false;
@@ -161,7 +161,7 @@ public class Main {
         }
 
     }
-
+    //list Student
     public static void listStudents(ArrayList<Student> students){
 
         if(students.isEmpty()){
