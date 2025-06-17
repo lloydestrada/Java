@@ -32,7 +32,7 @@ public class Main {
         char c = "Pizza".charAt(0);
         boolean d = Boolean.parseBoolean("True");*/
 
-        char letter = 'b';
+        char letter = 'B';
 
         System.out.println(Character.isLetter(letter));
         System.out.println(Character.isUpperCase(letter));
