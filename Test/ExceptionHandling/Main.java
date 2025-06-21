@@ -23,7 +23,7 @@ public class Main {
 
         }
         catch (ArithmeticException e) {
-            System.out.println("You can't divide by zero");
+            System.out.println("You cannot divide by zero");
         }
 
         finally {
