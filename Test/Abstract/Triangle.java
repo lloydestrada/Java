@@ -1,4 +1,4 @@
-package Abstract;
+package Test.Abstract;
 
 public class Triangle extends Shape{
 

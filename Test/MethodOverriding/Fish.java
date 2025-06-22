@@ -1,4 +1,4 @@
-package MethodOverriding;
+package Test.MethodOverriding;
 
 public class Fish extends Animal{
 
