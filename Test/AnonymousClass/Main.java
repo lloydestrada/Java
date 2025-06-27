@@ -8,8 +8,21 @@ public class Main {
 
 
         Dog dog = new Dog();
+        TalkingDog talkingDog = new TalkingDog();
+
+        //Anonymous class
+        Dog dog1 = new Dog(){
+
+            @Override
+            void speak() {
+                System.out.println("Another one barks");
+            }
+        };
 
         dog.speak();
+        talkingDog.speak();
+
+        dog1.speak();
 
     }
 }
