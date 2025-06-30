@@ -1,5 +1,6 @@
 package MiniEntryProjects.CountDownTimer;
 
+import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -7,10 +8,16 @@ public class Main {
 
     public static void main(String[] args){
 
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of seconds to countdown from: ");
+        int response = sc.nextInt();
+
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
 
-            int count =   5;
+            int count =   response;
 
             @Override
             public void run() {
